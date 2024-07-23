@@ -12,7 +12,7 @@ persist_with: prueba_m1_default_datagroup
 
 explore: campaas {
   join: marketing {
-    sql_on: ${campaas.campa___as}campa___as} = ${marketing.campa___as};;
+    sql_on: ${campaas.campa___as} = ${marketing.campa___as};;
     relationship: many_to_one
     type: left_outer
   }
